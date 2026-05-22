@@ -1,0 +1,14 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Taskly logo</title>
+  <desc id="desc">A modern kanban board icon with task cards and a check mark.</desc>
+  <rect width="200" height="200" rx="42" fill="#2563EB"/>
+  <path d="M46 54C46 45.1634 53.1634 38 62 38H138C146.837 38 154 45.1634 154 54V146C154 154.837 146.837 162 138 162H62C53.1634 162 46 154.837 46 146V54Z" fill="white"/>
+  <rect x="62" y="58" width="28" height="68" rx="8" fill="#DBEAFE"/>
+  <rect x="86" y="58" width="28" height="52" rx="8" fill="#CCFBF1"/>
+  <rect x="110" y="58" width="28" height="82" rx="8" fill="#FDE68A"/>
+  <rect x="68" y="70" width="16" height="8" rx="4" fill="#2563EB"/>
+  <rect x="92" y="70" width="16" height="8" rx="4" fill="#0FBAAE"/>
+  <rect x="116" y="70" width="16" height="8" rx="4" fill="#F59E0B"/>
+  <circle cx="105" cy="126" r="30" fill="#172033"/>
+  <path d="M91 125.5L100.2 134.5L119.5 114.5" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
