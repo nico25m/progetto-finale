@@ -33,7 +33,7 @@ export function Notifications({ open, notifications, onToggle, onMarkRead }) {
             </button>
 
             {open && (
-                <section className="absolute right-0 z-50 mt-3 w-80 max-w-[calc(100vw-2rem)] rounded-xl border border-[#dbe3ee] bg-white p-3 shadow-[0_24px_70px_rgba(15,23,42,0.22)]">
+                <section className="absolute right-0 z-50 mt-3 w-80 max-w-[calc(100vw-2rem)] rounded-xl border border-[#dbe3ee] bg-white p-3 shadow-[0_24px_70px_rgba(15,23,42,0.22)] min-[1240px]:right-auto min-[1240px]:left-1/2 min-[1240px]:-translate-x-1/2">
                     <div className="mb-3 flex items-center justify-between gap-3">
                         <h2 className="text-base font-extrabold">Notifiche</h2>
 

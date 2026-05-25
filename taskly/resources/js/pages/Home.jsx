@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Footer } from '../components/Footer';
 
 export function Home() {
     return (
@@ -38,7 +37,7 @@ export function Home() {
                 </div>
             </nav>
 
-            <section className="mx-auto grid flex-1 w-[min(1180px,calc(100%-40px))] grid-cols-[minmax(0,1.1fr)_480px] items-center gap-20 pb-16 pt-8 max-[1239px]:grid-cols-1 max-[1239px]:gap-12 max-[1239px]:py-12 max-sm:w-[min(100%-28px,1180px)]">
+            <section className="mx-auto grid w-[min(1180px,calc(100%-40px))] flex-1 grid-cols-[minmax(0,1.1fr)_480px] items-center gap-20 pb-16 pt-8 max-[1239px]:grid-cols-1 max-[1239px]:gap-12 max-[1239px]:py-12 max-sm:w-[min(100%-28px,1180px)]">
                 <div className="max-w-172.5">
                     <p className="mb-4 inline-flex rounded-full bg-white/80 px-4 py-2 text-xs font-extrabold uppercase tracking-normal text-[#2563eb] shadow-[0_12px_35px_rgba(37,99,235,0.10)]">
                         Task condivisi, liste personali, bacheche pulite
@@ -114,7 +113,6 @@ export function Home() {
                     </section>
                 </div>
             </section>
-            <Footer />
         </main>
     );
 }

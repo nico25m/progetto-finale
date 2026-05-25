@@ -21,7 +21,6 @@ return new class extends Migration
         $defaultColumns = [
             ['name' => 'Da fare', 'color' => '#0000'],
             ['name' => 'In corso', 'color' => '#0000'],
-            ['name' => 'Revisione', 'color' => '#0000'],
             ['name' => 'Completate', 'color' => '#0000'],
         ];
 

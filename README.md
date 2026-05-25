@@ -2,6 +2,8 @@
 
 Taskly e una web app full stack per organizzare task tramite bacheche.
 
+![Taskly](<Taskly.png>)
+
 Il progetto permette agli utenti di registrarsi, accedere, disconnettersi e gestire bacheche personali o condivise tramite API RESTful sviluppate con Laravel.
 
 ## Obiettivo del progetto
@@ -73,7 +75,7 @@ Una bacheca contiene:
 - membri;
 - codice invito.
 
-Quando un utente crea una bacheca diventa automaticamente `owner`.
+Quando un utente crea una bacheca diventa automaticamente `proprietario`.
 
 ### Colonne
 

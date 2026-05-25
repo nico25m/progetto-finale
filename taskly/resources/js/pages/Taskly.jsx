@@ -7,7 +7,6 @@ import { SidebarMenu } from "../components/SidebarMenu";
 import { TasklyModals } from "../components/TasklyModals";
 import { Notifications } from "../components/Notifications";
 import { getRoleLabel } from "../role/roles";
-import { Footer } from '../components/Footer';
 
 const BOARD_NAME_LIMIT = 80;
 
@@ -998,7 +997,6 @@ export function Taskly() {
                     </>
                 )}
             </section>
-            <Footer />
         </main>
     );
 }
