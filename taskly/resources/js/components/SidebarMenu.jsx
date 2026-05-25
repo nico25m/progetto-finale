@@ -113,7 +113,13 @@ export function SidebarMenu({
                                         <span className="block truncate text-sm text-[#667085]">
                                             {getRoleLabel(getRole(board))} -{" "}
                                             {countTasks(board)}{" "}
-                                            {pluralLabel(countTasks(board), "task", "task")} -{" "}
+                                            {pluralLabel(countTasks(board), "task", "task")}
+                                            <span className="min-[1240px]:hidden">
+                                                {" "}- {countMembers(board)}{" "}
+                                                {pluralLabel(countMembers(board), "utente", "utenti")}
+                                            </span>
+                                        </span>
+                                        <span className="hidden truncate text-sm text-[#667085] min-[1240px]:block">
                                             {countMembers(board)}{" "}
                                             {pluralLabel(countMembers(board), "utente", "utenti")}
                                         </span>
