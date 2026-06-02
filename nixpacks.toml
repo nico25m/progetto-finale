@@ -1,8 +1,0 @@
-[providers]
-providers = ["php"]
-
-[variables]
-NIXPACKS_DOCUMENT_ROOT = "taskly/public"
-
-[phases.setup]
-commands = ["mkdir -p /var/log/nginx && mkdir -p /var/cache/nginx && touch /var/log/nginx/error.log"]
