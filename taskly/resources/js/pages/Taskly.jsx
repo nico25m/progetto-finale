@@ -51,9 +51,15 @@ export function Taskly() {
     useEffect(() => {
         async function loadTaskly() {
             try {
-                const userResponse = await window.axios.get("/api/user");
-                const boardsResponse = await window.axios.get("/api/boards");
-                const notificationsResponse = await window.axios.get("/api/notifications");
+                const [
+                    userResponse,
+                    boardsResponse,
+                    notificationsResponse,
+                ] = await Promise.all([
+                    window.axios.get("/api/user"),
+                    window.axios.get("/api/boards"),
+                    window.axios.get("/api/notifications"),
+                ]);
 
                 setUser(userResponse.data);
                 setBoards(boardsResponse.data);
@@ -71,7 +77,7 @@ export function Taskly() {
     }, [navigate]);
 
     useEffect(() => {
-        const interval = setInterval(loadNotifications, 15000);
+        const interval = setInterval(loadNotifications, 30000);
 
         return () => clearInterval(interval);
     }, []);
